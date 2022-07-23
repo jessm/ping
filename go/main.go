@@ -41,7 +41,7 @@ func handler(w http.ResponseWriter, _ *http.Request) {
 		return
 	}
 
-	w.Write([]byte(fmt.Sprintf("go_ping %d\n", pingCount)))
+	w.Write([]byte(fmt.Sprintf("go ping %d\n", pingCount)))
 }
 
 func main() {
